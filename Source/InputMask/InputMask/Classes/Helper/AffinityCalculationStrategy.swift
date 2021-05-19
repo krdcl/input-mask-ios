@@ -12,7 +12,8 @@ import Foundation
  
  Allows to opt for a different mask picking algorithm in text field listeners.
  */
-public enum AffinityCalculationStrategy {
+@objc
+public enum AffinityCalculationStrategy: Int {
     /**
      Default strategy.
      

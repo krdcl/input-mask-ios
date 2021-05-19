@@ -65,7 +65,9 @@ open class MaskedTextFieldDelegate: NSObject, UITextFieldDelegate {
      */
     @IBInspectable open var atomicCursorMovement: Bool = false
 
+    @objc
     open var affineFormats:               [String]
+    @objc
     open var affinityCalculationStrategy: AffinityCalculationStrategy
     open var customNotations:             [Notation]
     
